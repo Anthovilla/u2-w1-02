@@ -178,12 +178,53 @@ h1 + p {
   position: absolute;
 }
 
-
+.line {
+  /*height: 131px;*/
+  width: 97%;
+  margin-bottom: 10px;
+  padding-top: 107px;
+}
 
 .spaceLine {
-  margin-top: 124px;
   color: gray;
 }
+
+.imgLeft {
+  float: left
+}
+
+section > h2 {
+  font-size: 2.4rem;
+  width: 13rem;
+  height: 4rem;
+  box-shadow: 1px 1px 5px #1d1b1b;
+}
+
+.containerNovità {
+  position:relative
+}
+
+.containerNovità > h2 {
+  position: absolute;
+  top: -30px;
+}
+
+.spaceNovità {
+  margin-top: 40px;
+}
+
+/*.containerFas {
+  position: relative;
+}*/
+
+.fa-tag:before {
+  content: "\f02b";
+  position: relative;
+  color: #80808085;
+  left: 22rem;
+  font-size: 40px;
+}
+
 
 @media screen and (min-width: 700px) {
   h1 {
